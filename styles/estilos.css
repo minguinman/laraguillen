@@ -1,0 +1,164 @@
+/* CSS Document */
+body { 
+	padding: 0; 
+	margin: 0;
+	font-size: 12px;
+	font-family: Verdana, Arial;
+	letter-spacing: 1px; 
+	line-height: 160%; 
+	background: url(../images/fondo.jpg) repeat-x  ;
+	color: #000000/* #454545*/; 
+}
+
+
+#contenedor { 
+	margin-top:30px;
+	width: 820px; 
+	padding: 20px;
+	padding-top:0px;
+	background-color: #FFFFFF; 
+	margin-left:auto;
+	margin-right:auto; 
+	moz-border-radius: 5px;
+	-moz-border-radius: 9px;
+	margin-bottom:20px;
+	/*border: 1px solid #000;
+	padding: 10px;*/
+}
+#escaleras img{
+	height:250px;
+}
+table#veladores img{
+	width: 300px;
+}
+table#toldos img{
+	width: 250px;
+}
+table#cortinas img{
+	width: 300px;
+}
+table#techos img{
+	width: 250px;
+}
+#cabecera { 
+	position: relative; 
+	
+}
+#icono{
+	float:right;
+	top:-10px;
+	
+}
+
+#laraguillen{
+	float:left;
+	
+	padding-top:50px;
+}
+
+#bar { 
+	position:relative; 
+	clear: both; 
+	background: #006699;/* #cdcdcd;*/ 
+	height: 26px;
+	color:#FFFFFF; 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#bar li { 
+	margin: 0; 
+	padding: 0; 
+	padding-top: 3px; 
+	padding-bottom: 4px;	
+	padding-left: 10px;	
+	padding-right: 10px; 
+	border-right: 1px solid #ffffff; 
+	float: left; 
+	font-variant:small-caps;
+	
+}
+
+#bar li.active { 
+	background: #3399FF; 
+	color: #FFFFFF; 
+	padding-bottom: 4px; 
+}
+
+ul { 
+	margin: 0; 
+	padding : 0; 
+	list-style : none; 
+}
+
+a:link, a:visited{ text-decoration: none; }
+
+li:hover{ background:#0099FF; }
+
+#bar a:link, #bar a:active, #bar a:visited { color: #FFFFFF;}/* #000000; } */
+
+a img { border: 0; }
+
+a img:active { border: 0; }
+
+#principal{ 
+	position:relative;
+	text-align:justify;
+	
+	padding: 10px; 
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	padding-top: 20px;
+}
+
+#contacto{
+	position:relative;
+	text-align:justify;
+	background-image:);background-repeat:no-repeat; background-color: #f5f5f5; 
+	padding: 10px; 
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+	padding-top: 8px;
+
+}
+
+#info{
+	font-weight:bold;
+	font-size:10px;
+	margin-left:50px;
+	
+}
+
+#pie p {
+	
+	padding-top:10px;
+	clear: both; 
+	color: #000000; 
+	font-size: 11px; 
+} 
+
+#pergolas{
+	font-size:9px;
+	color:#CCCCCC;
+}
+
+.imagenes-pergolas {
+    margin-top: 10px;
+    height: 200px;
+	width: 260px;
+	margin-bottom: 0px;
+	margin: 10px;
+	float: left;
+	overflow: hidden;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.imagenes-pergolas  img {
+	height: 200px;
+}
+
+p.parrafo {
+	font-family: Arial;
+	color: #383838;
+	font-size: 1.2em;
+}
