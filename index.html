@@ -2,47 +2,50 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta name="author" content="Domingo Navarro">
 
+  <meta name="robots" content="index, follow">
+ 
 	<title>:: LARA GUILLEN :: Pergolas de madera, toldos, veladores, estructuras de madera, escaleras, techos, cortinas de cristal. Tratamiento para exterior de la madera.</title>
 		
-	<meta content=es name=Language >
+	<meta content="es" name="Language" >
 	<meta name="description" content="Pergolas de madera, estructuras para hosteleria, toldos, estructuras, cubiertas, porches, vigas de madera, tarimas, madera tratada para exterior">
 
-	<meta name="keywords" content="pergolas, toldos, veladores, escaleras, toldos, techos, cortinas de cristal, madera, estructuras de madera">
+	<meta name="keywords" content="hosteleria, pergolas, toldos, veladores, escaleras, toldos, techos, cortinas de cristal, madera, estructuras de madera">
 
 	<link rel="stylesheet" href="./styles/estilos.css" type="text/css" >
-			
-	<script type="text/javascript" src="./javascript/jquery-1.11.2.min.js" ></script>
-	<script type="text/javascript" src="./javascript/jquery.cycle.all.js" ></script>
 	
-	<script type="text/javascript">
-		var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-		</script>
-		<script type="text/javascript">
-		try {
-		var pageTracker = _gat._getTracker("UA-8050311-1");
-		pageTracker._trackPageview();
-		} catch(err) {}
-		</script>
-			
-		<script>
-		$(function() {
-		 // run the code in the markup!
-			$('table pre code').not('#skip,#skip2').each(function() {
-				eval($(this).text());
-			});
-			$('#s3').cycle({ 
-				fx:     'scrollLeft', 
-				timeout: 5000, 
-				next:   '#s3', 
-				pause:   1 
-			});
-		});
-		</script>
+  <script src="./javascript/jquery-1.6.4.js"></script>
+  <script src="./javascript/lemmon-slider.js"></script>
 
-		
+			
+	<script>		
+    var sliderTimeout;
+    window.onload = function(){
+      // initialize slider
+      $( '#slider3' ).lemmonSlider({
+
+          'infinite': true
+
+      });
+      // run
+      sliderAutoplay();
+
+    };
+    // slider autoplay function
+    function sliderAutoplay(){
+
+        $( '#slider3' ).trigger( 'nextSlide' );
+        sliderTimeout = setTimeout( 'sliderAutoplay', 3000 );
+
+    };
+    // pause slider function
+    function sliderPause(){
+        clearTimeout( sliderTimeout );
+    };
+	</script>
+
 </head>
 
 <body>
@@ -92,15 +95,30 @@
   
   <div id="principal">
 				
-	<div id="s3" class="imagenes-pergolas"> 
-		
-		<img src="./pergolas/Pergola04.jpg" /> 
-		<img src="./toldos/toldo3.jpg" /> 
-		<img src="./veladores/velador5.jpg" /> 
-		<img src="./cortinas/cortina1.jpg" /> 
-		<img src="./pergolas/Pergola06.jpg" /> 
-		 
+	<div id="slider3" class="slider"> 
+		<ul id="carrusel">
+  		<li><img src="./pergolas/Pergola04.jpg" /></li> 
+  		<li><img src="./pergolas/Pergola06.jpg" /></li>
+      <li><img src="./toldosnuevos1/toldo2.jpg" /></li>
+      <li><img src="./toldosnuevos1/toldo3.jpg" /></li>
+      <li><img src="./puntagalera/puntagalera0.jpg" /></li>
+      <li><img src="./puntagalera/puntagalera13.jpg" /></li>
+      <li><img src="./pergolasnuevas2/pergola7.jpg" /></li>
+      <li><img src="./pergolasnuevas2/pergola4.jpg" /></li>
+      <li><img src="./veladores/velador7.jpg" /></li>
+      <li><img src="./toldos/toldo3.jpg" /></li> 
+      <li><img src="./veladores/velador5.jpg" /></li> 
+      <li><img src="./cortinas/cortina1.jpg" /></li>
+		</ul>
 	</div>
+  
+  <div class="controls">
+      <!--<a href="#" class="prev-page">Prev Page</a> |-->
+      <a href="#" class="prev-slide">Anterior</a> |
+      <a href="#" class="next-slide">Siguiente</a> 
+      <!--<a href="#" class="next-page">Prev Page</a>-->
+  </div>
+
 
 	  <p class="parrafo"><strong>Lara Guill&eacute;n</strong> es una empresa dedicada a la construcci&oacute;n de todo tipo de estructuras para exterior como p&eacute;rgolas, porches, cubiertas, pasarelas, vallas o escaleras. Trabajamos con una gran variedad de maderas como el pino rojo o maderas tropicales, siempre las de mejor calidad y con el tratamiento para exterior adecuado seg&uacute;n el grado de exposici&oacute;n de la estructura a los agentes meteorol&oacute;gicos. Principalmente trabajamos en la parte de <a href="pergolasenmurcia.html">Murcia</a> y <a href="pergolasenalicante.html">Alicante</a> y <a href="pergolasenvalencia.html">Valencia</a>.</span></p>
 	  <p class="parrafo"> Tambi&eacute;n nos dedicamos a la venta de toldos, veladores, parasoles, cortinas de cristal, techos de cristal o policarbonato.  </span></p>

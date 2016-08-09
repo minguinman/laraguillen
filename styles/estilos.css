@@ -1,4 +1,4 @@
-/* CSS Document */
+
 body { 
 	padding: 0; 
 	margin: 0;
@@ -6,7 +6,7 @@ body {
 	font-family: Verdana, Arial;
 	letter-spacing: 1px; 
 	line-height: 160%; 
-	background: url(../images/fondo.jpg) repeat-x  ;
+	background-color: #3399f0;
 	color: #000000/* #454545*/; 
 }
 
@@ -40,7 +40,7 @@ table#cortinas img{
 table#techos img{
 	width: 250px;
 }
-table#puntagalera img {
+table#hosteleria img {
     width: 250px;
 }
 #cabecera { 
@@ -93,9 +93,9 @@ ul {
 	list-style : none; 
 }
 
-a:link, a:visited{ text-decoration: none; }
+a:link, a:visited { text-decoration: none; }
 
-li:hover{ background:#0099FF; }
+li:hover { background:#0099FF; }
 
 #bar a:link, #bar a:active, #bar a:visited { color: #FFFFFF;}/* #000000; } */
 
@@ -103,7 +103,7 @@ a img { border: 0; }
 
 a img:active { border: 0; }
 
-#principal{ 
+#principal { 
 	position:relative;
 	text-align:justify;
 	
@@ -113,10 +113,11 @@ a img:active { border: 0; }
 	padding-top: 20px;
 }
 
-#contacto{
+#contacto {
 	position:relative;
 	text-align:justify;
-	background-image:);background-repeat:no-repeat; background-color: #f5f5f5; 
+	background-repeat:no-repeat; 
+	background-color: #f5f5f5; 
 	padding: 10px; 
 	margin-bottom: 10px;
 	padding-bottom: 3px;
@@ -124,7 +125,7 @@ a img:active { border: 0; }
 
 }
 
-#info{
+#info {
 	font-weight:bold;
 	font-size:10px;
 	margin-left:50px;
@@ -139,7 +140,7 @@ a img:active { border: 0; }
 	font-size: 11px; 
 } 
 
-#pergolas{
+#pergolas {
 	font-size:9px;
 	color:#CCCCCC;
 }
@@ -155,13 +156,28 @@ a img:active { border: 0; }
 	overflow-x: hidden;
 	overflow-y: hidden;
 }
-
 .imagenes-pergolas  img {
 	height: 200px;
 }
+
 
 p.parrafo {
 	font-family: Arial;
 	color: #383838;
 	font-size: 1.2em;
 }
+
+/* Necessary CSS */
+.slider    { overflow:hidden; position:relative; width: 800px; }
+.slider ul { margin:0; padding:0; }
+.slider li { float:left; margin:0 5px 0 0; list-style:none; }
+
+#carrusel img{
+	height: 220px;
+}
+
+.controls a{
+	color: #111111;
+}
+
+
